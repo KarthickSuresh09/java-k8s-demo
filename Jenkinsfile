@@ -46,7 +46,7 @@ pipeline {
                       -e DB_HOST=mysql-db \
                       -e DB_NAME=studentDB \
                       -e DB_USER=root \
-                      -e DB_PASS=root@123 \
+                      -e DB_PASS=Root@123 \
                       ${IMAGE_NAME}:latest
                 """
             }
