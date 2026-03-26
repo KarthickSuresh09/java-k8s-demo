@@ -12,7 +12,7 @@ pipeline {
             steps {
                 git branch: 'main',
                     credentialsId: 'KarthickSuresh09',
-                    url: 'https://github.com/YOUR_USERNAME/java-k8s-demo.git'
+                    url: 'https://github.com/KarthickSuresh09/java-k8s-demo.git'
             }
         }
 
