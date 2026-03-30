@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         AWS_REGION   = 'ap-south-2'
-        ECR_REGISTRY = 'XXXXXXXXXXXX.dkr.ecr.ap-south-2.amazonaws.com'
+        ECR_REGISTRY = '968134752314.dkr.ecr.ap-south-2.amazonaws.com'
         ECR_REPO     = 'java-k8s-demo'
         IMAGE_TAG    = "${BUILD_NUMBER}"
         FULL_IMAGE   = "${ECR_REGISTRY}/${ECR_REPO}:${IMAGE_TAG}"
